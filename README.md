@@ -13,5 +13,5 @@ A very simple app to manage transactions of users.
 You can use this curl to test transactions list API:
 
 ```bash
-curl -X GET -H "Content-Type: application/json" http://localhost:8000/transactions/?phone_number=<phone_number>
+curl -X GET -H "Content-Type: application/json" "http://localhost:8000/transactions/?phone_number=<phone_number>"
 ```
